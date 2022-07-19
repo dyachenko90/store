@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E-Store</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/side-bar/style.css">
+  <link rel="stylesheet" href="./styles/filters-list/style.css">
+  <link rel="stylesheet" href="./styles/double-slider/style.css">
+  <link rel="stylesheet" href="./styles/cart/style.css">
+  <link rel="stylesheet" href="./styles/search-box/style.css">
+  <link rel="stylesheet" href="./styles/cards-list/style.css">
+  <link rel="stylesheet" href="./styles/card/style.css">
+  <link rel="stylesheet" href="./styles/pagination/style.css">
+</head>
+<body>
+  <div id="root" class="wrapper"></div>
+
+
+  <!-- <script src="https://unpkg.com/react@15.6.2/dist/react.min.js"></script>
+  <script src="https://unpkg.com/react-dom@15.6.2/dist/react-dom.min.js"></script> -->
+  <script type="module">
+    import OnlineStorePage from "./index.js";
+
+    const page = new OnlineStorePage()
+    const rootElement = document.querySelector('#root')
+
+    rootElement.append(page.element)
+  </script>
+</body>
+</html>

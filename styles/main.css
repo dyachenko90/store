@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  button {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    vertical-align: middle;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+  }
+  
+  :root {
+    --c-primary: #7e72f2;
+    --c-primary-dark: #6d5ff0;
+    --c-primary-light: #c8c2f3;
+    --c-basic: #2c2c2c;
+    --c-light-grey: #ededed;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  .page-wrapper {
+    margin: 0 auto;
+    max-width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  
+  .os-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-width: 120px;
+    padding: 10px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--c-primary);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.133);
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  
+  .os-btn:hover {
+    background-color: var(--c-primary-dark);
+  }
+  
+  .os-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .os-page-title {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 600;
+    color: var(--c-primary);
+  }
+  
+  .os-cart-btn__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-image: url("/img/icons/i-cart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .main-container {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+  }
+  
+  .os-pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  /* .os-cart-title {
+    margin-left: 5px;
+    margin-right: 5px;
+} */

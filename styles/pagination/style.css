@@ -1,0 +1,46 @@
+.pagination {
+  display: flex;
+  gap: 15px;
+}
+
+.pagination .pg-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--c-basic);
+  background-color: var(--c-light-grey);
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.pagination .pg-control path {
+  transition: fill 0.25s ease-in-out;
+}
+
+.pagination .pg-control:hover,
+.pagination .pg-control.active {
+  color: white;
+  background-color: var(--c-primary);
+}
+
+.pagination .prev-control:hover path {
+  fill: white;
+}
+
+.pagination .next-control:hover path {
+  fill: white;
+}
+
+.pagination .pages {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pagination .pages__item {
+  text-decoration: none;
+}

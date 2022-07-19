@@ -1,0 +1,17 @@
+.os-sidebar__filters {
+  min-height: 40px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.133);
+  overflow: hidden;
+}
+
+.os-sidebar__reset-btn {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+}
