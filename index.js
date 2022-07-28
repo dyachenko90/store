@@ -56,7 +56,7 @@ export default class OnlineStorePage {
             
             <button class="os-btn os-cart-btn" data-element="cartBtn">
               <i class="bi bi-cart"></i>
-              <div class="os-cart-title"> Cart<span data-element="cartQuantity"></span></div>
+              <div class="os-cart-title"> Cart <span data-element="cartQuantity"></span></div>
             </button>
           </header>
           <main class="main-container">
